@@ -1,0 +1,10 @@
+.header {
+background-color: #ffefaa;
+padding: 5px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+margin-left: 150px;
+margin-right: 150px;
+}

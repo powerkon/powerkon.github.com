@@ -10,6 +10,7 @@
 
     <!-- Le styles -->
     <link href="bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -25,6 +26,10 @@
 
     <!-- Le fav and touch icons -->
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="coin-slider/coin-slider.min.js"></script>
+<link rel="stylesheet" href="coin-slider/coin-slider-styles.css" type="text/css" />
   </head>
 
   <body>
@@ -51,13 +56,25 @@
     </div>
 
     <div class="container">
+       
+<div class="header">
+<div id='coin-slider' style="margin: auto;>
+	<a href="gallery/1.jpg">
+		<img src='gallery/1.jpg' >
+	</a>
+	<a href="gallery/2.jpg">
+		<img src='gallery/2.jpg' >
+	</a>
+<a href="gallery/3.jpg">
+		<img src='gallery/3.jpg' >
+	</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</div>
+</div>
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hello!</h1>
-        <p>Εδω θα μπεί το Nivo Slider, ή κάποιο άλλο Slider...</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div>
+<br />
 
 	<p>
 	<strong>Υπηρεσίες μας</strong>
@@ -136,6 +153,12 @@
 		</div>
 
       <hr>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({ width: 800, navigation: false, delay: 1000 });
+	});
+</script>
 
       <footer>
         <p>Copyright &copy; PowerKon 2012 <img src="logo.png" align="right" /></p>

@@ -1,0 +1,16 @@
+img {
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+}
+
+.eachgallery {
+padding: 5px;
+margin-right: 373px;
+background-color: #ffefaa;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+}
