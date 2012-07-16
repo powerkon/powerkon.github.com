@@ -1,5 +1,5 @@
 .header {
-background-color: #ffefaa;
+background-color: #ddd;
 padding: 5px;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
@@ -8,3 +8,12 @@ border-radius: 3px; /* future proofing */
 margin-left: 150px;
 margin-right: 150px;
 }
+
+.sinergates {
+	list-style-type: none;
+}
+
+.sinergateslist {
+	display: inline;
+}
+
