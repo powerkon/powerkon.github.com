@@ -50,6 +50,7 @@
               <li><a href="gallery.html">Τα Εργα Μας</a></li>
               <li><a href="contact.html">Επικοινωνία</a></li>
             </ul>
+		<img src="logo.png" align="right" />
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -71,6 +72,30 @@
 <a href="gallery/3.jpg">
 		<img src='gallery/3.jpg' >
 	</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</a>
+<a href="gallery/4.jpg">
+		<img src='gallery/4.jpg' >
+	</a>
+</a>
 <a href="gallery/4.jpg">
 		<img src='gallery/4.jpg' >
 	</a>
